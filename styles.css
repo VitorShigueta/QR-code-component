@@ -7,17 +7,20 @@
 }
 
 body {
-    background-color: hsl(212, 45%, 89%);
-    font-family: 'Outfit', sans-serif;
-}
-
-main {
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    width: 100%;
 }
 
 img {
@@ -51,10 +54,6 @@ p {
     background-color: hsl(0, 0%, 100%);
 }
 
-.text-container {
-    width: 100%;
-}
-
 .attribution {
-    margin-top: 8px;
+    margin-top: 16px;
 }
